@@ -1,0 +1,27 @@
+.calculator-container {
+    background-color: #FAEEDC;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.calculator {
+    display: grid;
+    grid-template-rows: 32% 14%;
+    grid-template-columns: 100%;
+    width: 37vh;
+    padding: 17px 10px 10px 10px;
+    background: #2C2C2C;
+    border-radius: 22px;
+    justify-items: center;
+    min-height: 70vh;
+    max-height: 70vh;
+}
+
+@media only screen and (max-width: 912px) {
+    .calculator-container  {
+        width: 100vw;
+    }
+}

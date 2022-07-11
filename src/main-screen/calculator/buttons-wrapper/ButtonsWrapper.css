@@ -1,0 +1,26 @@
+.buttons-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+}
+
+.calc-numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.user-operators {
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.delete-icon {
+    width: 28px;
+    height: 30px;
+    position: relative;
+    left: 5px;
+}

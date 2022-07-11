@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 912px) {
+  .App {
+    flex-direction: column;
+  }
+}

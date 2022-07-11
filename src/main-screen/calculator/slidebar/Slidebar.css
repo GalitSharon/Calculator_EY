@@ -1,0 +1,9 @@
+.slidebar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    padding-top: 3px;
+}
+
