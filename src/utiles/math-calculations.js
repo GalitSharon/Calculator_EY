@@ -20,9 +20,10 @@ export function getFullNumber(expression) {
   }
 
   while (expression[index] && !isOperator(expression[index])) {
-    fullNumber = fullNumber.concat(expression[index]);
     index += 1;
   }
+  fullNumber = fullNumber + expression.substring(0, index);
+
   return {fullNumber, index}
 }
 
@@ -69,6 +70,10 @@ function isSecondOperFirstOrder(expression, index) {
 
   return secondOperator === '-' || secondOperator === '+';
 }
+
+
+// 3+5*4
+
 
 /**
  * Recursively calculate expression and return the mathematical result

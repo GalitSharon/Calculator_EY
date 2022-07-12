@@ -1,7 +1,7 @@
 .calc-screen {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    width: 96%;
+    width: 88%;
     background: #333333;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.32);
     border-radius: 13px;
